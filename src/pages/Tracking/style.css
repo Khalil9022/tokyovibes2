@@ -1,0 +1,164 @@
+:root {
+  --red: #9b0e09;
+  --shadow: rgba(0, 0, 0, 0.25);
+}
+
+.box2 {
+  box-sizing: border-box;
+  height: auto;
+  padding: 30px 50px 50px 50px;
+  background: #fefefe;
+  border-radius: 1em;
+  border: none;
+  box-shadow: 0px 1px 3px 1px var(--shadow);
+}
+
+Link:hover {
+  text-decoration: none;
+}
+
+.contentLeft {
+  font-size: large;
+  font-weight: 600;
+  border: 0 none;
+  border-radius: 1rem;
+  box-shadow: 0px 1px 3px 1px var(--shadow);
+  width: 300px;
+  padding: 25px;
+  display: grid;
+  justify-content: start;
+}
+
+.profiles {
+  display: grid;
+  width: 250px;
+  border-radius: 1em;
+  border: none;
+  box-shadow: 0px 1px 3px 1px var(--shadow);
+  margin-bottom: 1rem;
+}
+
+.profile-names {
+  margin-bottom: 1rem;
+  font-size: 1.315rem;
+}
+
+.btnFilter {
+  /* padding: 10px 30px 10px 30px; */
+  background-color: white;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 15%;
+  font-weight: 630;
+  font-size: large;
+  border-radius: 1em;
+  border: none;
+  box-shadow: 0px 1px 3px 1px var(--shadow);
+}
+
+.btnFilter:hover {
+  background-color: #13a722;
+  color: white;
+  border-color: #13a722;
+}
+
+.btnFilter:focus {
+  background-color: #13a722;
+  color: white;
+}
+
+.btnFilter:active {
+  background-color: #13a722 !important;
+  color: white;
+}
+
+.active {
+  background-color: #13a722 !important;
+  border-color: #13a722 !important;
+}
+
+.contentButton {
+  border: none;
+}
+
+.contentTransaksi {
+  margin-bottom: 1rem;
+  width: 98.5%;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+.imgColTransaksi {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 180px;
+}
+
+.imgTransaksi {
+  border: 1px solid var(--shadow);
+  border-radius: 1em;
+  width: 160px;
+}
+
+.spanFilter1 {
+  color: #feba00;
+  font-weight: 500;
+}
+
+.spanFilter2 {
+  color: #3b3998;
+  font-weight: 500;
+}
+
+.spanFilter3 {
+  color: #9b0e09;
+  font-weight: 500;
+}
+
+.detailTransaksi {
+  color: #13a722;
+  cursor: pointer;
+}
+
+.detailTransaksi:hover {
+  color: #0f831b;
+  cursor: pointer;
+}
+
+.cardColTransaksi {
+  padding: 25px 45px 25px 25px;
+}
+
+.id {
+  font-size: 1.215rem;
+}
+
+.product-name,
+.product-price {
+  font-size: 1.415rem;
+  font-weight: 500;
+}
+
+.product-price {
+  color: var(--red);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  margin-left: 30px;
+  width: 95%;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+@media (max-width: 1368px) {
+  .box2 {
+    width: 950px;
+  }
+}

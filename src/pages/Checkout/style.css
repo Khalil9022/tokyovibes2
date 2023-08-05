@@ -1,0 +1,133 @@
+:root {
+  --red: #9b0e09;
+  --shadow: rgba(0, 0, 0, 0.25);
+}
+
+.imgCheckout {
+  border-radius: 20px;
+  border: solid;
+  border-color: #a50e09;
+}
+
+.card-titles {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.card-titles img {
+  width: 1.8rem;
+  margin-right: 0.7rem;
+}
+
+.cardCheckout {
+  padding: 0px 10px 0px 10px;
+}
+
+.element-pembayaran {
+  display: flex;
+}
+
+.dr-down-toggle {
+  border: none;
+  border-radius: 1em;
+  width: 190px;
+  background: #a50e09;
+}
+
+.dr-down-toggle:hover {
+  border: none;
+  background: #a50e09;
+}
+
+.btn-reds {
+  color: #fff !important;
+  background: #a50e09 !important;
+}
+
+.item-pics {
+  width: 120px;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+Dropdown.Item {
+  border: 1px solid red;
+}
+
+.item-pics img {
+  width: 200px;
+}
+
+.cardCheckoutlg {
+  box-shadow: 0px 0.7px 1.1px 1.1px rgba(0, 0, 0, 0.25);
+  width: 85%;
+  border-radius: 20px;
+  padding: 10px 10px 0px 10px;
+}
+
+.detailTransaksiText {
+  font-weight: 700;
+}
+
+.btnUbahAlamat {
+  box-shadow: 0px 0.7px 1.1px 1.1px rgba(0, 0, 0, 0.25);
+  border: 0 none;
+  border-radius: 1em;
+  background-color: #a50e09 !important;
+  font-weight: 600;
+  width: 9rem;
+}
+
+.btnUbahAlamat:hover,
+.btnUbahAlamat:active,
+.btnUbahAlamat:focus,
+.btnUbahAlamat:visited,
+.btnUbahAlamat:active:hover {
+  background-color: #ffffff !important;
+  border-color: #a50e09 !important;
+  color: #a50e09;
+  background-image: none !important;
+  font-weight: 600;
+}
+
+.hrCheckout {
+  width: 100%;
+  color: red !important;
+  border: 0 !important;
+  border-top: 2px solid red !important;
+  margin: 10px 0px 10px 0px !important;
+}
+
+label {
+  margin-left: 10px;
+}
+
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid black;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: #a50e09;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
